@@ -3,7 +3,7 @@ public class Que6 {
 
         // outer loop
         for (int i = 1; i <= n; i++) {
-            // inner loop
+            // inner loopl
             // print spaces
             for (int j = 1; j<= n-i; j++) {
                 System.out.print(" ");
