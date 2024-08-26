@@ -4,12 +4,16 @@ public class Que11 {
         // outer loop for 1st half
         for (int i = 1; i <= n; i++) {
             // inner loop
+            // stars
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
+
+            // spaces
             for (int j = 1; j <= 2*(n - i); j++) {
                 System.out.print(" ");
             }
+            // stars
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
@@ -20,13 +24,16 @@ public class Que11 {
         for (int i = n; i >= 1; i--) {
 
             // inner loop
+            // stars
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
+            // spaces
             for (int j = 1; j <= 2*(n - i); j++) {
                 System.out.print(" ");
 
             }
+            // stars
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
 
@@ -36,7 +43,7 @@ public class Que11 {
     }
 
     public static void main(String[] args) {
-        butterflypattern(4);
+        butterflypattern(6);
     }
 
 }
