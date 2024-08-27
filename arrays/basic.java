@@ -6,8 +6,10 @@ public class basic {
     //dataType arrayName[] = new dataType[size];
     // new is basicaly look a memory location and take a memory give a memory
     public static void main(String [] args){
+        @SuppressWarnings("unused")
         int marks[]=new int[50];// aloacte a fifity memory
-        int number[] = {1,2,3,4};
+        @SuppressWarnings("unused")
+        int number[] = {1,2,3,4,5};
         String fruits[] = {"rahul","raju","niraj","shivam" };
         
         System.out.println(fruits[0]);
