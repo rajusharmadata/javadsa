@@ -1,3 +1,4 @@
+// array is work that call by refrence 
 public class basic2 {
 public static void update(int marks[]){
     for(int i=0;i<marks.length;i++){
