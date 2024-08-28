@@ -17,7 +17,15 @@ public class basic {
 
         System.out.println("Enter marks");
        marks[0] =  sc.nextInt();
-    //    sc.nextInt();
-
+       System.out.println(marks[0]);
+       // change the value
+       marks[0]=68;
+       System.out.println(marks[0]);
+       // update the value 
+       marks[0] = marks[0]+4;
+       System.out.println("my update marks " + marks[0]);
+  
+//     how to find length of array
+    System.out.println(marks.length);
 }
 }
