@@ -16,7 +16,7 @@ public class largestnumber {
                         smallest = number[i];
                         
                     }
-                 }
+                 } 
                  return smallest; 
              }
             
