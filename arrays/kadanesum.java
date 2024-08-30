@@ -9,7 +9,6 @@ public class kadanesum {
             }
 
             mx = Math.max(mx, cs);
-            
         }
         System.out.println("max sum of this arary"+"="+mx);
     }
