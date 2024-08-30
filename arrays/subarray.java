@@ -19,7 +19,7 @@ public class subarray {
                 // find max valu 
                  if(sum>large){
                     large = sum;
-                }
+                }      
                 // find minum valu 
                 if(minum>sum){
                     minum = sum;
