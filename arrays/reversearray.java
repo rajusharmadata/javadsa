@@ -1,6 +1,7 @@
 public class reversearray {
     // this is reverse arry 
-    // that time complixity is O(1)
+    // that time complixity is O(n)
+    // and space complixity is O(1)
     public static void reverse(int arr[]){
         int first = 0; 
         int last = arr.length-1;
