@@ -1,3 +1,7 @@
+/* traping Rainwater
+ given n non - negative integers repersenting an elvative map where the 
+width of each hight bar is 1 compute how much water it can trap after raining ;
+*/
 
 public class trapingrainwater {
 
@@ -14,7 +18,7 @@ public class trapingrainwater {
         }
         // caluculate the right max boundary- arry 
         int rightMax[] = new int[hight.length];
-        rightMax[n - 1] = hight[n - 1];
+        rightMax[n - 1] = hight[n - 1]; 
         for (int i = n - 2; i >= 0; i--)
          {
             rightMax[i] = Math.max(hight[i], rightMax[i + 1]);
