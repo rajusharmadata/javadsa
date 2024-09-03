@@ -9,7 +9,7 @@ public class buyandscellstocks {
                 maxprofit = Math.max(maxprofit, profit);
 
             }else{
-                buyPrice = prices[i];
+                buyPrice = prices[i];// this is a price
             }
         }
         return maxprofit;
