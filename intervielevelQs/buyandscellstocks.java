@@ -16,7 +16,7 @@ public class buyandscellstocks {
     }
 
     public static void main(String[] args) {
-        int prices[] = {6,1,3,5,6,7};
+        int prices[] = {7,1,5,3,6,4};
       System.out.println( buyandssellstocks(prices)); 
         
     }
