@@ -1,20 +1,25 @@
 public class selectionsort {
     public static void selectionsort(int arr[]){
-         for(int i = 0;i<arr.length-2 ; i++){
-            int smallest = Integer.MAX_VALUE;
-          for(int j =i+1; j<arr.length-1;j++){
-            if(smallest>arr[i]){
-                 smallest  = arr[j] ;
-            }
-            smallest =  Math.min(smallest, arr[j]);
+         for(int i = 0;i<arr.length-1 ; i++){
+            int minpos = i;
+            for(int j = i+1;j<arr.length-1;j++){
+                if(arr[minpos]>arr[i]){
+                    minpos = j;
+                }
+           
           }
+          // Swap
+          int temp = arr[minpos];
+          arr[minpos] = arr[i];
+          arr[i] = temp;
+
          }
     }
     public static void main (String[]args){
     int arr[] = {5,4,1,3,2};
     selectionsort(arr);
-    for(int i = 0; i<arr.length-1;i++){
-        System.out.print(arr[i] + " ");
+    for(int i = 0;i<arr.length;i++){
+        System.out.print(arr[i]+" ");
     }
     }
 }
