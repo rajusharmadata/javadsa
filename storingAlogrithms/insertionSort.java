@@ -11,7 +11,7 @@ public class insertionSort {
                 arr[prev+1] = arr[prev];
                 prev--;
             }
-            // insertion
+            // insertion 
             arr[prev+1] = curr;
         }
     
