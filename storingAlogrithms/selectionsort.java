@@ -1,3 +1,4 @@
+// this is a selectionSort time complixity  0(n^2);
 public class selectionsort {
     public static void selectionSort(int arr[]){
 
@@ -16,11 +17,16 @@ public class selectionsort {
 
          }
     }
+    public static void printarr(int arr[]){
+        for(int i = 0;i<arr.length;i++){
+            System.out.print(arr[i] + " ");
+        }
+    }
+
     public static void main (String[]args){
     int arr[] = {5,4,1,3,2};
     selectionSort(arr);
-    for(int i = 0;i<arr.length;i++){
-        System.out.print(arr[i]+" ");
-    }
+    printarr(arr);
+    
     }
 }
