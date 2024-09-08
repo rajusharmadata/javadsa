@@ -37,7 +37,7 @@ public class maxsumarray {
             int start = i;
             curent = 0;
             for (int j = i; j < arr.length; j++) {
-                int end = j;
+                int end = j; 
                 curent = start == 0 ? prifix[end] : prifix[end] - prifix[start - 1];
             }
             if (curent > large) {
@@ -50,7 +50,7 @@ public class maxsumarray {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 2, 4, 6, 8, 10 };
+        int arr[] = { 2, 4, 6, 8, 10 };                    
         maxsubarray(arr);
 
     }
