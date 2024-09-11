@@ -1,5 +1,6 @@
 import java.util.*;
 public class question1 {
+    // search a Iteam & key 
     public static boolean Search(int matrix[][],int key){
         for(int i = 0;i<matrix.length;i++){
             for(int j = 0;j<matrix.length;j++){
