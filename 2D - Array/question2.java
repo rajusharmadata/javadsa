@@ -31,6 +31,7 @@ public class question2 {
                 matrix[i][j] = sc.nextInt();
             }
         }
+        
         Max_min(matrix);
     
 }
