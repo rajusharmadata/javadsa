@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// maximum  and minmum +
 
 public class question2 {
     public static void Max_min(int matrix[][]){
@@ -31,7 +32,7 @@ public class question2 {
                 matrix[i][j] = sc.nextInt();
             }
         }
-        
+
         Max_min(matrix);
     
 }
