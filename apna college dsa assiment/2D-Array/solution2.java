@@ -14,14 +14,15 @@ public class solution2 {
         */
        
     /**
-     * @param args
+     * 
      */
     public static void main(String[] args) {
         int matrix[][] =  { {1,4,9},{11,4,3},{2,2,3} };
         int row = 1;
         // System.out.println(calculatesum(matrix, row));
         int sum = 0;
-        for(int i = 0;i<matrix[1].length;i++){
+        // target second row
+        for(int i = 0;i<matrix[0].length;i++){
             sum += matrix[row][i];
         }
         System.out.println(sum);
