@@ -2,6 +2,7 @@ public class solution3 {
     public static void FindTranspose(int matrix[][]){
         int col = matrix.length;
         int row = matrix[0].length;
+        // create a new arr
         int arr[][] = new int[row][col];
         for(int i = 0;i<matrix.length;i++){
             for(int j = 0;j<matrix[0].length;j++){
@@ -26,7 +27,7 @@ public class solution3 {
             }
             System.out.println();
         }
-        System.out.println("after Transpose matrix");
+        System.out.println("Transpose of the matrix");
 
         FindTranspose(matrix);
 
