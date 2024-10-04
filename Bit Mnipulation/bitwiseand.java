@@ -17,5 +17,11 @@ public class bitwiseand {
         // -6
         System.out.println(~0);
         // outptu -1
+        // left shift 
+        System.out.println(5<<2);
+        // output 20
+        // Right shift 
+        System.out.println(6>>1);
+        // 3
     }
 }
