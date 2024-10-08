@@ -12,6 +12,6 @@ public class question4 {
         return ans ;
     }
     public static void main(String[] args) {
-        System.out.println(fastexpo(5, 3));
+        System.out.println(fastexpo(3, 5));
     }
 }
