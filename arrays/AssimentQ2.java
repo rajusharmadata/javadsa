@@ -46,4 +46,4 @@
     //     System.out.println("index = " + findIndexPostion(arr, target));
     // }
 }
-}
+
