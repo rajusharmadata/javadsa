@@ -1,4 +1,4 @@
-package OOPS;
+
 public class OOPS {
    public static void main(String[] args) {
      // static - asses stacefire]
@@ -14,9 +14,6 @@ public class OOPS {
 }
  
 
-class BankAccount{
-    int Passoword;
-}
 class Pen {
     String color;
     int tip;
