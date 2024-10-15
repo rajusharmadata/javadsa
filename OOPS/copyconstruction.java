@@ -1,7 +1,7 @@
 //  How to make a copy constructors
 public class copyconstruction {
     public static void main(String[] args) {
-        // object calling
+        // object calling s1 all property
         Student s1 = new Student();
         s1.name = "raju";
         s1.roll = 587;
@@ -11,7 +11,10 @@ public class copyconstruction {
         s1.marks[2] = 2257;
         // new constructors
         Student s2 = new Student(s1);
+        System.out.println(s2);
         s2.password = "xyes";
+        // this porblem is reference 
+        s1.marks[0] = 8888;
         for(int i = 0;i<3;i++){
             System.out.println(s2.marks[i]);
         }
@@ -20,6 +23,7 @@ public class copyconstruction {
     
 }
 // creat a class 
+      
 
 class Student{
     String name ;
@@ -29,9 +33,10 @@ class Student{
     
     // create a copy constructor
     Student(Student s1){
+        marks = new int[3];
         this.name = s1.name;
         this.roll = s1.roll;
-        marks = new int[3];
+        this. marks = s1.marks;
     }
 
     // Peramatrized constructors
