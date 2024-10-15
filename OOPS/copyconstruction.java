@@ -31,7 +31,7 @@ class Student{
     String password ;
     int marks[];
     
-    //Shadow copy constructor
+    //Shallow copy constructor
     /*Student(Student s1){
         marks = new int[3];
         this.name = s1.name;
