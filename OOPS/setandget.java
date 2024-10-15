@@ -23,7 +23,7 @@ class Book{
     }
     // get book name (geter)
     String getBookname(){
-        return this.Bookname;
+        return this.Bookname ;
     }
     // set nofbook 
     void setnofbooks(int books){
