@@ -6,10 +6,10 @@ public class Example {
         // fish shark = new fish();
         // shark.eat();
 
-        Dog pupe = new Dog();
+        bird pupe = new bird();
         pupe.eat();
-        pupe.breathe();
-        pupe.breads();
+        pupe.breading();
+        pupe.fly();
     }
 }
 /*
@@ -44,7 +44,8 @@ class fish extends Animal{
 
  // 2. multlevel inhertance 
 
- class Animal {
+ /*
+  class Animal {
     String color;
 
     void eat(){
@@ -69,3 +70,33 @@ class fish extends Animal{
         System.out.println("Dogs is breads........ ");
     }
  }
+  */
+
+
+  // Hierarchial Inheritence
+
+  class Animal{
+    String Animal_name;
+
+    void eat(){
+        System.out.println("eats");
+    }
+
+    void breading(){
+        System.out.println("breathing");
+    }
+  }
+
+  // second class
+   class mameal extends Animal{
+    void walk(){
+        System.out.println("walks...");
+    }
+
+   }
+   class bird extends Animal{
+    void fly(){
+        System.out.println("fly...");
+    }
+   }
+
