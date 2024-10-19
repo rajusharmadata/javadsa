@@ -14,6 +14,7 @@ public class abstraction {
 
  abstract class Animal{
     String color;
+    // constr
     Animal(){
         color = "brown";
     }

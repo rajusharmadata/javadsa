@@ -1,9 +1,9 @@
-// constractions hiraric
+// constractions hierarchy
 
 public class canstractions {
     public static void main(String[] args) {
         mustange m = new mustange();
-        // Animal -> Horse -> mustage ye hirarci
+        // Animal -> Horse -> mustage ye hierarchy
     }
     
 }
