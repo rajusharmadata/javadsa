@@ -6,10 +6,8 @@ public class Example {
         // fish shark = new fish();
         // shark.eat();
 
-        bird pupe = new bird();
-        pupe.eat();
-        pupe.breading();
-        pupe.fly();
+         man raju = new man();
+         raju.walk();
     }
 }
 /*
@@ -73,9 +71,10 @@ class fish extends Animal{
   */
 
 
-  // Hierarchial Inheritence
+  // 3.Hierarchial Inheritence
 
-  class Animal{
+  /*
+   class Animal{
     String Animal_name;
 
     void eat(){
@@ -100,3 +99,69 @@ class fish extends Animal{
     }
    }
 
+
+   */
+
+   // Hybrid inheritance 
+
+   // Base class  
+   class Animal{
+    String name;
+
+    void eat(){
+        System.out.println("eats");
+    }
+    void breading(){
+        System.out.println("breadings");
+    }
+   }
+   // derive class of Animal 
+   class fish extends Animal{
+    void swing(){
+        System.out.println("Swing.................");
+    }
+   }
+   // derive class of Animal 
+   class Bird extends Animal{
+    void fly(){
+        System.out.println("fly...........");
+    }
+   }
+   // derive class of Animal 
+   class mameal extends Animal{
+    void walk(){
+        System.out.println("walks");
+    }
+   }
+
+   // derive class of fish 
+   class tuna extends fish{
+    void colo(){
+        System.out.println("colors is Red........");
+    }
+   }
+   // derive class of Fish
+   class shark extends fish{
+    void shark(){
+        System.out.println("This is shark class");
+    }
+   }
+   // // derive class of bird
+  class picacock extends Bird{
+    void picacock(){
+        System.out.println("picacock.........");
+    }
+  }
+  // // derive class of mammels
+  class dog extends mameal{
+    void dog(){
+        System.out.println("bhockta hai");
+    }
+  }
+  // // derive class of mammels
+
+  class man extends mameal{
+    void man(){
+        System.out.println("mammeal is mammeal");
+    }
+  }
