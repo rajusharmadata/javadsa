@@ -9,7 +9,7 @@ public class Example {
         System.out.println(s2.scname);
 
         School s3 = new School();
-        s3.scname = "papa";
+        System.out.println(s3.scname);
     }
 }
 
