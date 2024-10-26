@@ -16,7 +16,7 @@ public class question6 {
          return sorted(arr, i+1);
     }
     public static void main(String [] args){
-        int arr[]  = {1,2,3,4,8,6};
+        int arr[]  = {6};
        System.out.println( sorted(arr, 0));
     }
     
