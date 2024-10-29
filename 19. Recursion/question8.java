@@ -32,7 +32,7 @@ public class question8 {
     public static void main(String [] args){
         int arr[] = {1,4,2,3,6,7,89,5};
         int key = 5;
-        System.out.println(lastoccurenc(arr, key, arr.length-1));
+        System.out.println(lastoccurenc(arr, key,0));
     }
 }
 
