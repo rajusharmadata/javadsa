@@ -11,6 +11,9 @@ public class problem9 {
         int ans = x *power(x, n-1);
         return ans;
     }
+
+
+    
     public static void main(String []args){
         int x = 3;
         int n = 3;
