@@ -49,4 +49,9 @@ class car {
    void print1(){
       System.out.println("derive class....");
    }
+
+public static char[] drive() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'drive'");
+}
 }
