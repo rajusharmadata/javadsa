@@ -5,5 +5,23 @@
  (A tiles can either be placed Horizontally  or vertically )
  */
 public class question11 {
-    
+    public static int TillingProblem(int n){
+        // base case
+         if(n == 0 || n == 1){
+            return 1;
+         }
+
+         // verticale 
+         int fnm1 = TillingProblem(n-1);
+
+         //  Horizontly
+         int fnm2 = TillingProblem(n-2);
+         
+         return fnm1+fnm2;
+
+    }
+    public static void main(String [] args ){
+        System.out.println(TillingProblem(3));
+    }
+
 }
