@@ -2,7 +2,10 @@ public class Practice {
 
     public static void main(String[] args) {
         Car c = new ElectricCar(); // You can create an ElectricCar object
-        System.out.println(c.drive()); // Should print "Driving electric car"
+        System.out.println(c.drive());
+         // Should print "Driving electric car"
+         
+          
     }
 }
 
@@ -13,8 +16,8 @@ class Automobile {
 }
 
 class Car extends Automobile {
-   
-    protected String drive() {
+    @Override
+    protected  String drive() {
         return "Driving car";
     }
 }
