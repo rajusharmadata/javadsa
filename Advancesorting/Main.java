@@ -1,4 +1,5 @@
 public class Main {
+    
 
     // This function prints the elements of the array.
     // It takes an integer array as input and prints each element followed by a space.
