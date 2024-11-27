@@ -3,6 +3,6 @@ public class test {
         int i = 010;
         int j = 07;
         System.out.println(i);
-        System.out.println(j);
+        System.out.println(j)
     }
 }
