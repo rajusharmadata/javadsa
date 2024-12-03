@@ -1,17 +1,17 @@
-import javax.print.attribute.standard.PrinterMessageFromOperator;
 
+/* That is how to work backtracking */
 public class ChangeArr {
     public static void changearr(int arr[],int i,int val){
-        // Base case 
+        // Base case
         if(i == arr.length){
             Printarr(arr);
             return;
         }
-        // kaam 
+        // kaam
         arr[i] = val;
         changearr(arr, i+1, val+1);
 
-        // backtracking  or chnage the value 
+        // backtracking  or chnage the value
         arr[i] = arr[i]-2;
     }
 
