@@ -1,3 +1,4 @@
+package Encapsulation;
 
 public class OOPS {
    public static void main(String[] args) {
@@ -12,12 +13,12 @@ public class OOPS {
      System.out.println(p1.color);
     }
 }
- 
+
 
 class Pen {
     String color;
     int tip;
-    // color 
+    // color
     void Setcolor(String newcolor){
         color = newcolor;
     }
@@ -26,7 +27,7 @@ class Pen {
     }
 }
 
-// student 
+// student
 class Student{
     String name ;
     int age;

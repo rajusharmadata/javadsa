@@ -1,3 +1,4 @@
+package Encapsulation;
 public class accesmod {
     public static void main(String [] args){
         BankAccount Account = new BankAccount();
@@ -7,7 +8,7 @@ public class accesmod {
     }
 }
 class BankAccount{
-    // user name is public 
+    // user name is public
     public String username;
     // password is private
     private String Password;

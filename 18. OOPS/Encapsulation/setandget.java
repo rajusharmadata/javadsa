@@ -1,9 +1,10 @@
+package Encapsulation;
 public class setandget {
     public static void main(String[] args) {
-        // create a object 
+        // create a object
         Book p1 = new Book();
 
-        // argument pass set book name 
+        // argument pass set book name
         p1.Setbookname("british lenguwa");
         // print book name help with getBookfunction
         System.out.println(p1.getBookname());
@@ -25,7 +26,7 @@ class Book{
     String getBookname(){
         return this.Bookname ;
     }
-    // set nofbook 
+    // set nofbook
     void setnofbooks(int books){
         nofbook = books;
     }

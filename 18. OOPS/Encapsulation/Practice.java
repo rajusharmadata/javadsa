@@ -1,11 +1,12 @@
+package Encapsulation;
 public class Practice {
 
     public static void main(String[] args) {
         Car c = new ElectricCar(); // You can create an ElectricCar object
         System.out.println(c.drive());
          // Should print "Driving electric car"
-         
-          
+
+
     }
 }
 

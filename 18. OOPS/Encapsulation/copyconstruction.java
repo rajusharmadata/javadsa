@@ -1,3 +1,4 @@
+package Encapsulation;
 //  How to make a copy constructors
 public class copyconstruction {
     public static void main(String[] args) {
@@ -13,24 +14,24 @@ public class copyconstruction {
         Student s2 = new Student(s1);
         System.out.println(s2);
         s2.password = "xyes";
-        // this porblem is reference 
+        // this porblem is reference
         s1.marks[0] = 8888;
         for(int i = 0;i<3;i++){
             System.out.println(s2.marks[i]);
         }
-       
+
     }
-    
+
 }
-// creat a class 
-      
+// creat a class
+
 
 class Student{
     String name ;
     int roll;
     String password ;
     int marks[];
-    
+
     //Shallow copy constructor
     /*Student(Student s1){
         marks = new int[3];

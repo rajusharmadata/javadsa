@@ -1,10 +1,10 @@
+import Encapsulation.Shape;
 
-
- class practice3 {
+class practice3 {
 public static void main(String [] args){
 
 }
-    
+
 }
 public class Shape {
     void display() {
@@ -12,7 +12,7 @@ public class Shape {
    }
    }
    // Circle.java
-      public class Circle extends Shape { 
+      public class Circle extends Shape {
        /*
         * < <access modifier>
         */
@@ -21,6 +21,5 @@ public class Shape {
    System.out.println("Display-derived");
    }
 }
-// it is possible  protected and public 
-  
-    
+// it is possible  protected and public
+
