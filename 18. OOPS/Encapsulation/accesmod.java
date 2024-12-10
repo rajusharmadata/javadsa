@@ -1,4 +1,4 @@
-package Encapsulation;
+
 public class accesmod {
     public static void main(String [] args){
         BankAccount Account = new BankAccount();

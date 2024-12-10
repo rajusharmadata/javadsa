@@ -1,4 +1,4 @@
-package Encapsulation;
+
 //  How to make a copy constructors
 public class copyconstruction {
     public static void main(String[] args) {

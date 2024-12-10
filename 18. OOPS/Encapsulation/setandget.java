@@ -1,4 +1,4 @@
-package Encapsulation;
+
 public class setandget {
     public static void main(String[] args) {
         // create a object
